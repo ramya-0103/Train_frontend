@@ -1,14 +1,14 @@
 {
-  "homepage": "https://ramya-0103.github.io/login-react",
+  "homepage": "https://ramya-0103.github.io/train", 
   "name": "e-commerce",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build", 
+    "deploy": "gh-pages -d build" 
   },
   "dependencies": {
     "bootstrap": "^5.3.8",
