@@ -38,8 +38,8 @@ export function Home() {
 
             {!loggedIn && (
                 <>
-                    <input placeholder="Username" onChange={(e) => setUsername(e.target.value)} />
-                    <input placeholder="Password" type="password" onChange={(e) => setPassword(e.target.value)} />
+                    <input placeholder="Username" onChange={(e) => setUsername(e.target.value)} /><br></br>
+                    <input placeholder="Password" type="password" onChange={(e) => setPassword(e.target.value)} /><br></br>
                     <button onClick={login}>Login</button>
                 </>
             )}
